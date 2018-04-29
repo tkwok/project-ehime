@@ -50,6 +50,7 @@ class LoginForm extends Component {
           <Input
             label="Email"
             placeholder="email@gmail.com"
+            autoCapitalize="none"
             onChangeText={this.onEmailChange.bind(this)}
             value={this.props.email}
           />
